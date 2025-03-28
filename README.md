@@ -44,7 +44,7 @@ Utilizado o dataset público da Databricks:
 - Distribuição por faixa de renda
 - Idade média dos passageiros por região
 
-### ✈Hábitos de Viagem
+### Hábitos de Viagem
 - Média de voos por ano por faixa de renda e sexo
 - Uso de aplicativos, redes sociais e Wi-Fi por faixa etária
 
@@ -63,7 +63,7 @@ top_cidades = df.groupBy("Q17_CITY") \
 
 display(top_cidades)
 
-### Visualizações Criadas
+- Visualizações Criadas
 
 Gráfico de barras: top 10 cidades de origem dos passageiros
 
