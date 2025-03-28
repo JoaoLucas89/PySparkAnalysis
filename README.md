@@ -53,16 +53,6 @@ Utilizado o dataset público da Databricks:
 - Avaliação da limpeza geral por faixa de renda
 - Criação de **índice de satisfação geral**, combinando limpeza, segurança, sinalização e lojas
 
-### Cidades com Mais Passageiros
-
-```python
-top_cidades = df.groupBy("Q17_CITY") \
-    .count() \
-    .orderBy("count", ascending=False) \
-    .limit(10)
-
-display(top_cidades)
-
 - Visualizações Criadas
 
 Gráfico de barras: top 10 cidades de origem dos passageiros
